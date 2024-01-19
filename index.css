@@ -286,15 +286,14 @@ header .logo img{
         align-items: center;
     }
 
-    .banner .play{
-        left: 50px;
+    .banner .play {
+        left: 40px;
         font-size: 1em;
         bottom: 30px;
-
     }
 
     .play img {
-        margin-left: 20px;
+        margin-left: 10px;
         max-width: 40px;
     }
 
