@@ -240,7 +240,20 @@ header .logo img{
     max-width: 32px;
 }
 
-@media(max-width: 991px){
+@media(max-width: 1099){
+    header{
+        padding: 20px 50px;
+        flex-direction: column;
+    }
+    .navegation{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+}
+
+@media(max-width: 991px) or (max-width: 1064px){
     header{
         padding: 20px 50px;
         flex-direction: column;
@@ -255,7 +268,7 @@ header .logo img{
         padding: 100px 50px;
     }
     .banner .play{
-        left: 50px;
+
         font-size: 1em;
     }
 
@@ -290,9 +303,11 @@ header .logo img{
         left: 40px;
         font-size: 1em;
         bottom: 30px;
+ 
     }
 
     .play img {
+
         margin-left: 10px;
         max-width: 40px;
     }
