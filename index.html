@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" 
+    integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Netflix | Landing Page UI Design</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="img/logo.png"></a>
+        <ul class="navegation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Latest</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i class="bi bi-search"></i>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="img/bg.jpg" class="bg">
+        <div class="content">
+            <img src="img/name.png" class="movieTitle">
+            <h4>
+                <span>2020</span>
+                <span><i>12+</i></span>
+                <span>1h 55min</span>
+                <span>Action</span>
+            </h4>
+            <p>Mulan, uma jovem chinesa que não se encaixa na sociedade, teme que seu pai, um homem doente, 
+                seja convocado para lutar na guerra que se aproxima. A garota então se disfarça de homem e 
+                assume o posto de seu pai no exército chinês. Acompanhada por seu dragão Mushu, Mulan parte
+                para a linha de batalha, faz amizade com os outros soldados e usa sua inteligência para ajudar a 
+                combater a invasão dos hunos enquanto luta para esconder sua verdadeira identidade.</p>
+                <div class="buttons">
+                    <a href="#"><i class="bi bi-play-fill"></i> Play</a>
+                    <a href="#"><i class="bi bi-plus"></i> My List</a>
+                </div>
+        </div>
+        <a class="play" onclick="toggleVideo();"><img src="img/play.png">Whatch Trailer</a>
+    </div>
+
+    <div class="trailer">
+        <video src="Mulan _ Trailer 2 Legendado.mp4" controls="true"></video>
+        <img src="img/close.png" class="close" onclick="toggleVideo();">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
